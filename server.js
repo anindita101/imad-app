@@ -13,8 +13,8 @@ app.get('/article-one',function(req,res){
     res.send('article one requested and will be srved here');
 });
 
-app.get('/article-one',function(req,res){
-    res.send('article one requested and will be srved here');
+app.get('/article-sceond',function(req,res){
+    res.send('article sceond requested and will be srved here');
 });
 
 app.get('/ui/style.css', function (req, res) {
